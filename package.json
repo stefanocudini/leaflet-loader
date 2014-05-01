@@ -1,0 +1,25 @@
+{
+  "name": "leaflet-loader",
+  "version": "0.0.1",
+  "description": "Simple control to show a gif loader to the center of the map",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stefanocudini/leaflet-loader.git"
+  },
+  "homepage": "http://labs.easyblog.it/maps/leaflet-loader/",
+  "author": {
+    "name": "Stefano Cudini",
+    "email": "stefano.cudini@gmail.com",
+    "url": "http://labs.easyblog.it/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gis",
+    "map",
+    "leaflet"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
