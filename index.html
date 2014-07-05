@@ -73,7 +73,7 @@ controlLoader.show();
 ...
 controlLoader.hide();
 </pre>
-
+<div style="clear:both">move map to show the loader</div>
 <div id="map"></div>
 
 <div id="copy"><a href="http://labs.easyblog.it/">Labs</a> &bull; <a rel="author" href="http://labs.easyblog.it/stefano-cudini/">Stefano Cudini</a></div>
@@ -87,11 +87,14 @@ controlLoader.hide();
 	var map = new L.Map('map', {zoom: 9, center: new L.latLng([42.575330,12.102411]) });
 	map.addLayer(new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));	//base layer
 
-	var controlLoader = L.control.loader().addTo(map).show();
-
-	setTimeout(function() {
-		controlLoader.hide();
-	},5000);
+	var controlLoader = L.control.loader().addTo(map);
+	
+	map.on('dragend',function() {
+		controlLoader.show();
+		setTimeout(function() {
+			controlLoader.hide();
+		},3000);
+	});
 
 </script> 
 
