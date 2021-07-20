@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="https://www.w3.org/1999/xhtml"> 
 <head> 
 <title>Leaflet Control Loader</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
@@ -63,7 +63,7 @@ pre {
 <h3>Leaflet Control Loader</h3>
 <p>Simple control to show a gif loader to the center of the map
 	<br />
-		<iframe src="http://ghbtns.com/github-btn.html?user=stefanocudini&amp;repo=leaflet-loader&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="104px" height="20px"></iframe>
+		<iframe src="https://ghbtns.com/github-btn.html?user=stefanocudini&amp;repo=leaflet-loader&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="104px" height="20px"></iframe>
 </p>
 <label>Example:</label>
 <pre>
@@ -76,7 +76,7 @@ controlLoader.hide();
 <div style="clear:both">move map to show the loader</div>
 <div id="map"></div>
 
-<div id="copy"><a href="http://labs.easyblog.it/">Labs</a> &bull; <a rel="author" href="http://labs.easyblog.it/stefano-cudini/">Stefano Cudini</a></div>
+<div id="copy"><a href="https://opengeo.tech/">Labs</a> &bull; <a rel="author" href="https://opengeo.tech/stefano-cudini/">Stefano Cudini</a></div>
 
 <a href="https://github.com/stefanocudini/leaflet-loader"><img id="ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
@@ -85,7 +85,7 @@ controlLoader.hide();
 <script>
 
 	var map = new L.Map('map', {zoom: 9, center: new L.latLng([42.575330,12.102411]) });
-	map.addLayer(new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));	//base layer
+	map.addLayer(new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));	//base layer
 
 	var controlLoader = L.control.loader().addTo(map);
 	
