@@ -1,6 +1,10 @@
 {
   "name": "leaflet-loader",
+<<<<<<< HEAD
   "version": "0.0.2",
+=======
+  "version": "0.0.3",
+>>>>>>> ac893e0b5e98b7a55e67c84039f54e8132f40b39
   "description": "Simple control to show a gif loader to the center of the map",
   "repository": {
     "type": "git",
